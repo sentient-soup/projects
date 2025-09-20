@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Netrunner",
+    "url": "https://aphelion.live/projects/netrunner",
+    "repo": "https://github.com/sentient-soup/netrunner",
+    "description": "A simple wireframe tunnel synthesizer using p5.js",
+    "activity": "Active",
+    "technologies": ["p5.js", "preact", "Vite", "JS"],
+    "year": 2025
+  },
+  {
+    "name": "Apseline",
+    "url": "https://aphelion.live/404",
+    "repo": "https://github.com/sentient-soup/apseline",
+    "description": "Single pane of glass application to monitor cloud and homelab services",
+    "activity": "Active",
+    "technologies": ["Hono", "React", "Vite", "TS"],
+    "year": 2025
+  },
+  {
+    "name": "Code-cast",
+    "url": "https://github.com/sentient-soup/code-cast",
+    "repo": "https://github.com/sentient-soup/code-cast",
+    "description": "Lightweight custom build/deployment runner for SPA apps",
+    "activity": "Active",
+    "technologies": ["", "React", "Vite", "TS"],
+    "year": 2025
+  },
+  {
+    "name": "Fiberwave",
+    "url": "https://aphelion.live/projects/fiberwave",
+    "description": "Outrun style mountain scroller visualization",
+    "activity": "Archive",
+    "technologies": ["Three.js", "React", "Vite", "TS"],
+    "year": 2024
+  },
+
+  {
+    "name": "Slaughter House",
+    "url": "https://aphelion.live/projects/slaughter-house",
+    "repo": "https://github.com/Something-Specific/7DRL-1",
+    "description": "A 7-day game jam roguelike game made with rot-js and pixi.js",
+    "activity": "Archive",
+    "technologies": ["pixi", "rot-js", "TS"],
+    "year": 2021
+  },
+  {
+    "name": "Disregard That",
+    "url": "https://aphelion.live/projects/disregard-that",
+    "repo": "https://github.com/sentient-soup/disregard-that",
+    "description": "Beginings of an essay/debate app.",
+    "activity": "Archive",
+    "technologies": ["React", "Graphql", "JS"],
+    "year": 2021
+  },
+  {
+    "name": "Disregard That Podcast",
+    "url": "https://aphelion.live/projects/disregard-that-podcast",
+    "repo": "https://github.com/sentient-soup/disregard-that/tree/legacy",
+    "description": "A landing page for the short run Disregard That podcast.",
+    "activity": "Archive",
+    "technologies": ["Vue", "JS", "Gcloud"],
+    "year": 2020
+  }
+]

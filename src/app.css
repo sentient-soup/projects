@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+#app, body, html {
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.github-link {
+  position: absolute;
+  top: 0.7em;
+  right: 0.7em;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.github-icon {
+  width: 22px;
+  height: 22px;
+  fill: #b3b8c5;
+  transition: fill 0.2s;
+}
+.github-link:hover .github-icon {
+  fill: #7b8ca6;
+}
+.activity-badge {
+  font-size: 0.91rem;
+  font-weight: 500;
+  padding: 0.16em 0.65em;
+  border-radius: 6px;
+  display: inline-block;
+}
+.activity-badge.active {
+  background: rgba(80, 180, 120, 0.18);
+  color: #4fd18b;
+}
+.activity-badge.archived {
+  background: rgba(180, 80, 80, 0.18);
+  color: #d17c7c;
+}
+.site-info {
+  position: relative;
+}
+.card-topbar {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  width: calc(100% - 2em);
+  padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+  pointer-events: none;
+}
+.card-topbar > * {
+  pointer-events: auto;
+}
+.site-year {
+  font-size: 0.91rem;
+  font-weight: 500;
+  padding: 0.16em 0.65em;
+  border-radius: 6px;
+  background: rgba(60, 62, 80, 0.8);
+  color: #c3c4c7;
+}
+
+.title-divider {
+  display: block;
+  width: 50%;
+  max-width: 400px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(44,47,56,0.0) 0%, #2c2f38 50%, rgba(44,47,56,0.0) 100%);
+  margin: 0.7rem auto 1.2rem auto;
+  border-radius: 2px;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 0.8rem 0 0.7rem 0;
+  color: #8a8e99;
+  font-size: 1rem;
+  font-weight: 500;
+  background: none;
+  margin-top: 2.5rem;
+  position: relative;
+  opacity: 0.96;
+}
+.footer::before {
+  content: "";
+  display: block;
+  width: 48%;
+  max-width: 220px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(44,47,56,0.0) 0%, #2c2f38 50%, rgba(44,47,56,0.0) 100%);
+  margin: 0 auto 0.7rem auto;
+  border-radius: 2px;
+}
+.site-card {
+  background: rgba(30, 32, 40, 0.85);
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.22);
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  transition: box-shadow 0.2s, border 0.2s, background 0.2s;
+  backdrop-filter: blur(12px);
+  border: 2px solid #4a5568;
+}
+.site-card:hover {
+  box-shadow: 0 12px 48px rgba(74,85,104,0.22);
+  border-color: #7b8ca6;
+  background: rgba(40, 42, 60, 0.95);
+}
+.site-meta {
+  margin-top: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+.site-date {
+  font-size: 0.97rem;
+  color: #a2a6b3;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  display: inline-block;
+}
+.site-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em;
+  justify-content: center;
+}
+.site-chip {
+  font-size: 0.88rem;
+  color: #e0e0e0;
+  background: rgba(80, 85, 110, 0.7);
+  border-radius: 5px;
+  padding: 0.15em 0.6em;
+  font-weight: 500;
+  margin-top: 0.1em;
+  border: 1px solid rgba(120,130,150,0.18);
+}
+#app {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+.explorer-container {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.site-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+
+
+.site-chip {
+  font-size: 0.91rem;
+  color: #a2a6b3;
+  background: rgba(60, 62, 80, 0.45);
+  border-radius: 6px;
+  padding: 0.16em 0.65em;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+  border: none;
+}
+.site-card:hover {
+  box-shadow: 0 12px 48px rgba(74,85,104,0.22);
+  border-color: #4f74a8;
+  background: rgba(40, 42, 60, 0.95);
+}
+.site-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  background: #eaeaea;
+}
+.site-info {
+  padding: 1.1rem 1rem 1rem 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.site-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  color: #fff;
+}
+.site-desc {
+  font-size: 0.98rem;
+  color: #e0e0e0;
+  opacity: 0.92;
+}
+.error {
+  color: #c00;
+  margin: 1rem 0;
+}

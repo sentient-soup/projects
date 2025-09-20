@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="16" cy="16" rx="13" ry="6" stroke="#3f3f3f" stroke-width="1" fill="none"/>
+  <circle cx="29" cy="16" r="2" fill="#c2c2c2"/>
+  <circle cx="3" cy="16" r="2" fill="#c2c2c2" />
+
+  <circle cx="12" cy="16" r="3" fill="#3f3f3f"> 
+   <animate
+      attributeName="cx"
+      dur="8s"
+      values="12;20;12"
+      repeatCount="indefinite" />
+      </circle>
+</svg>
